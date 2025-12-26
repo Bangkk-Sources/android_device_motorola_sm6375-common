@@ -378,3 +378,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm6375-common/sm6375-common-vendor.mk)
+
+# UDFPS
+TARGET_HAS_UDFPS := true
